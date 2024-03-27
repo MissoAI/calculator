@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="undertale-pixel-art-sprite-sansserif-comic-sans-sprite-comic-video-games-animation-png-clipart.jpg"
+    />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputContainer">
+        <input type="text" id="numInput" readonly />
+      </div>
+      <div class="buttonsContainer">
+        <button onclick="toAppend(1)">1</button>
+        <button onclick="toAppend(2)">2</button>
+        <button onclick="toAppend(3)">3</button>
+        <button onclick="toAppend(4)">4</button>
+        <button onclick="toAppend(5)">5</button>
+        <button onclick="toAppend(6)">6</button>
+        <button onclick="toAppend(7)">7</button>
+        <button onclick="toAppend(8)">8</button>
+        <button onclick="toAppend(9)">9</button>
+        <button onclick="toAppend(0)">0</button>
+        <button onclick="toAppend('+')" class="operator">+</button>
+        <button onclick="toAppend('-')" class="operator">-</button>
+        <button onclick="toAppend('/')" class="operator">/</button>
+        <button onclick="toAppend('*')" class="operator">x</button>
+        <button onclick="clearInput()" class="operator">CE</button>
+        <button onclick="operate()" class="operator">=</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
